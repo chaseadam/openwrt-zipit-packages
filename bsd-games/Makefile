@@ -9,7 +9,7 @@ PKG_VERSION:=2.17
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=ftp://metalab.unc.edu/pub/Linux/games/
+PKG_SOURCE_URL:=http://metalab.unc.edu/pub/Linux/games/
 PKG_MD5SUM:=238a38a3a017ca9b216fc42bde405639
 
 include $(INCLUDE_DIR)/package.mk
