@@ -12,7 +12,7 @@ PKG_VERSION:=1.2-20150528
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tgz
-PKG_SOURCE_URL:=ftp://invisible-island.net/dialog
+PKG_SOURCE_URL:=https://invisible-mirror.net/archives/dialog/
 PKG_MD5SUM:=593615fb448e001e5b81420473a7354b
 
 include $(INCLUDE_DIR)/package.mk
