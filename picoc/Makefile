@@ -5,7 +5,7 @@ PKG_VERSION:=2.1
 PKG_RELEASE:=2
 
 PKG_SOURCE:=picoc-$(PKG_VERSION).tar.bz2
-	PKG_SOURCE_URL:=http://picoc.googlecode.com/files
+	PKG_SOURCE_URL:=https://web.archive.org/web/20160804073832if_/https://picoc.googlecode.com/files/
 	PKG_MD5SUM:=6505fb108d195bad0854c7024993cc24
 	PKG_CAT:=bzip2 -cd
 
