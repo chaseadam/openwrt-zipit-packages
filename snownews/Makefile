@@ -5,7 +5,7 @@ PKG_VERSION:=1.5.12
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://kiza.kcore.de/media/software/snownews/
+PKG_SOURCE_URL:=https://src.fedoraproject.org/repo/extras/snownews/snownews-1.5.12.tar.gz/80da8943fc5aa96571924aec0087d4c0/
 PKG_MD5SUM:=80da8943fc5aa96571924aec0087d4c0
 
 include $(INCLUDE_DIR)/package.mk
