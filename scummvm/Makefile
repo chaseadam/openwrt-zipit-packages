@@ -10,7 +10,7 @@ PKG_VERSION:=1.4.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=@SF/$(PKG_NAME)
+PKG_SOURCE_URL:=https://downloads.scummvm.org/frs/scummvm/$(PKG_VERSION)/
 PKG_CAT:=bzcat
 
 include $(INCLUDE_DIR)/package.mk
