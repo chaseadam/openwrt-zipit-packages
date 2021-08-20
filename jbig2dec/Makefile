@@ -12,7 +12,7 @@ PKG_VERSION:=0.11
 PKG_RELEASE:=2
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=@SF/jbig2dec
+PKG_SOURCE_URL:=https://src.fedoraproject.org/repo/pkgs/jbig2dec/jbig2dec-0.11.tar.gz/1f61e144852c86563fee6e5ddced63f1/
 PKG_MD5SUM:=1f61e144852c86563fee6e5ddced63f1
 
 include $(INCLUDE_DIR)/package.mk
