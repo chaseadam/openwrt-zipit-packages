@@ -26,12 +26,16 @@ define Package/mplayer
   TITLE:=MPlayer, the movie player
   URL:=http://www.mplayerhq.hu
   DEPENDS:=+libjpeg +libpng +zlib +libfreetype +fontconfig $(ICONV_DEPENDS) +libmad +libaa +giflib +fribidi +libtheora +libggi
-  DEPENDS+=+alsa-lib +libfaad2 +libmpcdec +libmpg123 +libspeex +libpthread
+  DEPENDS+=+alsa-lib +libfaad2 +libmpcdec +libmpg123 +libspeex +libpthread +liblzo
 endef
 
 define Package/mplayer/description
   MPlayer is a movie player which runs on many systems.
 endef
+
+# 20210822 adam@chasen.name: Refuses to link against libsound
+# https://github.com/chaseadam/openwrt-zipit-packages/issues/1
+TARGET_LDFLAGS+= -lsalsa
 
 CONFIGURE_ARGS := \
 		--prefix=/usr \
